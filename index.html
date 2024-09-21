@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodPlanner | Tailored Meal Plans</title> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="menu">
+        <div class="logo">
+          <a href="#">FoodPlanner</a>
+        </div>
+        <ul id="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li><a href="#feedback">Feedback</a></li>
+        </ul>
+        <div class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="img"></div>
+      <div class="center">
+        <div class="title">Tailor Balanced Meal Plans for You</div>
+        <div class="sub_title">Customized meals for all ages to support healthy growth.</div>
+        <div class="btns">
+          <button onclick="location.href='#about'">Learn More</button>
+          <button onclick="location.href='#subscribe'">Subscribe</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Us</h2>
+            <p>Welcome to FoodPlanner! We are dedicated to helping you achieve your health and wellness goals by providing tailored meal plans that suit your unique needs. Whether you're looking to lose weight, build muscle, or simply maintain a balanced diet, our expert team is here to support you every step of the way.</p>
+            <p>Our mission is to make healthy eating accessible and enjoyable for everyone. With a focus on quality ingredients and personalized nutrition, we ensure that your meal plan is not only effective but also delicious.</p>
+          </div>
+          <div class="about-image">
+            <img src="./pexels-ekaterina-bolovtsova-5702983.jpg" alt="About Us">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+      <div class="services-content">
+        <h2>Our Services</h2>
+        <div class="service-boxes">
+          
+            <div class="service-box" onclick="location.href='Meals_Plans/index.html'">
+                <i class="fas fa-apple-alt"></i>
+                <h3>Meal Planning</h3>
+                <p>Personalized meal plans designed to fit your dietary needs and lifestyle.</p>
+              </div>
+          
+          <div class="service-box">
+            <i class="fas fa-heartbeat"></i>
+            <h3>Nutrition Advice</h3>
+            <p>Expert advice on nutrition to help you make informed food choices.</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-dumbbell"></i>
+            <h3>Fitness Integration</h3>
+            <p>Combine your meal plans with fitness routines for optimal health.</p>
+          </div>
+          <div class="service-box">
+            <i class="fas fa-comments"></i>
+            <h3>Diet Consultation</h3>
+            <p>One-on-one consultations to tailor your diet to your specific goals.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="info-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <h3>Our Location</h3>
+              <p>Rachna appartment opposite of GH raisoni</p>
+            </div>
+            <div class="info-box">
+              <i class="fas fa-phone-alt"></i>
+              <h3>Call Us</h3>
+              <p>+91 9765329874</p>
+            </div>
+            <div class="info-box">
+              <i class="fas fa-envelope"></i>
+              <h3>Email Us</h3>
+              <p>contact@foodplanner.com</p>
+            </div>
+          </div>
+          <div class="contact-form">
+            <form action="#" method="POST">
+              <input type="text" name="name" placeholder="Your Name" required>
+              <input type="email" name="email" placeholder="Your Email" required>
+              <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section id="feedback" class="feedback">
+      <div class="container">
+        <h2>Feedback</h2>
+        <div class="feedback-content">
+          <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="feedback" rows="5" placeholder="Your Feedback" required></textarea>
+            <button type="submit">Submit Feedback</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="content">
+        <div class="top">
+          <div class="logo-details">
+            <i class="fas fa-utensils"></i>
+            <span class="logo_name">FoodPlanner</span>
+          </div>
+          <div class="media-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+        <div class="link-boxes">
+          <ul class="box">
+            <li class="link_name">Company</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+          </ul>
+          <ul class="box">
+            <li class="link_name">Services</li>
+            <li><a href="#">Meal Planning</a></li>
+            <li><a href="#">Nutrition Advice</a></li>
+            <li><a href="#">Fitness Integration</a></li>
+            <li><a href="#">Diet Consultation</a></li>
+          </ul>
+          
+          <ul class="box">
+            <li class="link_name">Resources</li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Recipes</a></li>
+            <li><a href="#">Guides</a></li>
+            <li><a href="#">Tips & Tricks</a></li>
+          </ul>
+          <ul class="box input-box">
+            <li class="link_name">Subscribe</li>
+            <li><input type="text" placeholder="Enter your email"></li>
+            <li><input type="button" value="Subscribe"></li>
+          </ul>
+        </div>
+      </div>
+      <div class="bottom-details">
+        <div class="bottom_text">
+          <span class="copyright_text">Copyright © 2024 <a href="#">FoodPlanner.</a> All rights reserved</span>
+          <span class="policy_terms">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+          </span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
